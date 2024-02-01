@@ -1,0 +1,154 @@
+/* Google Font Import - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+.container {
+  max-width: 1200px;
+  /* กำหนดความกว้างสูงสุดของ Container */
+  margin: 0 auto;
+  /* ทำให้ Container อยู่ตรงกลาง */
+  padding: 20px;
+  /* เพิ่ม Padding ตามต้องการ */
+  background-color: #ffffff;
+  /* สีพื้นหลังของ Container */
+  border: 1px solid #ddd;
+  /* เพิ่มเส้นขอบถ้าต้องการ */
+  border-radius: 10px;
+  /* กำหนดมุมของ Container */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* เพิ่มเงา (shadow) ตามต้องการ */
+}
+
+.container1 {
+  max-width: 1200px;
+  /* กำหนดความกว้างสูงสุดของ Container */
+  margin: 0 auto;
+  /* ทำให้ Container อยู่ตรงกลาง */
+  padding: 50px;
+  /* เพิ่ม Padding ตามต้องการ */
+  background-color: #494949;
+  /* สีพื้นหลังของ Container */
+  border: 1px solid #252525;
+  /* เพิ่มเส้นขอบถ้าต้องการ */
+  border-radius: 10px;
+  /* กำหนดมุมของ Container */
+  box-shadow: 0 0 50px rgba(141, 1, 255, 0.1);
+  /* เพิ่มเงา (shadow) ตามต้องการ */
+}
+
+
+
+
+/* Style for the dropdown container */
+.status-dropdown {
+  width: 150px;
+  /* Set the width of the dropdown */
+  padding: 8px;
+  border: 3px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  color: white;
+  border-color: green;
+}
+
+/* Style for the dropdown options */
+.status-dropdown option {
+  background-color: #575757;
+  color: #ffffff;
+}
+
+/* Style for the selected option */
+.status-dropdown option:checked {
+  background-color: #333333;
+  /* Set your desired background color */
+  color: #fff;
+  /* Set the text color for the selected option */
+}
+
+h1 {
+  color: black;
+}
+
+td {
+  color: black;
+}
+
+p {
+  color: #000;
+}
+
+th {
+  color: black;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+}
+
+.card h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.installment-info {
+  text-align: left;
+}
+
+.installment-info p {
+  margin: 5px 0;
+}
+
+
+.slider {
+  max-width: 1100px;
+  display: flex;
+}
+
+.slider .card {
+  flex: 1;
+  margin: 0 10px;
+  background: #fff;
+}
+
+.slider .card .content {
+  color: black;
+}
+
+.card .content .title {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.card .content .sub-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #e74c3c;
+  line-height: 20px;
+}
+
+.card .content .btns {
+  display: block;
+  text-align: left;
+  margin: 10px 0;
+}
+
+.card .content .btns buttons {
+  background: #e74c3c;
+  color: #fff;
+  border: none;
+  outline: none;
+  font-size: 17px;
+  padding: 5px 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.card .content .btns buttons:hover {
+  transform: scale(0.9);
+}
+
